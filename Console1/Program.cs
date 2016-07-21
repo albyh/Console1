@@ -263,6 +263,18 @@ namespace Console1
             }
 
 
+            //Create a string list and add elements to it.
+            //List<string> strList = new List<string>();
+            strList.Add("bone");
+            strList.Add("muscle");
+            strList.Add("skin");
+
+            Console.WriteLine("*****New String List items*******");
+            foreach (string v in strList)
+            {
+                Console.WriteLine("List Item {0}", v);
+            }
+
 
             // END
             Console.WriteLine("Press any key to quit...");
